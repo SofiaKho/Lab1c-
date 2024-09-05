@@ -1,0 +1,14 @@
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\bin\Debug\net8.0\Labc#.exe
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\bin\Debug\net8.0\Labc#.deps.json
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\bin\Debug\net8.0\Labc#.runtimeconfig.json
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\bin\Debug\net8.0\Labc#.dll
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\bin\Debug\net8.0\Labc#.pdb
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\Labc#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\Labc#.AssemblyInfoInputs.cache
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\Labc#.AssemblyInfo.cs
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\Labc#.csproj.CoreCompileInputs.cache
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\Labc#.dll
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\refint\Labc#.dll
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\Labc#.pdb
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\Labc#.genruntimeconfig.cache
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\ref\Labc#.dll
