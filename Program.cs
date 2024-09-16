@@ -1,59 +1,47 @@
-﻿namespace Labc
+﻿string slumpTal = "81575187k62387623593465387469";
+long totalSumma = 0;
+
+
+for (int i = 0; i < slumpTal.Length; i++)
 {
-    internal class Program
+
+    if (char.IsDigit(slumpTal[i]))
     {
-        static void Main(string[] args)
+        char startSiffra = slumpTal[i];
+
+        for (int j = i + 1; j < slumpTal.Length; j++)
         {
-            string slumpTal = "81575187k62387623593465387469";
-            long totalSumma = 0;
-
-            // Endast lop 3 gånger 
-            for (int i = 0; i < 3; i++)
+            if (slumpTal[j] == startSiffra)
             {
-
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("Ange ett tal mellan 1-9:");
-                Console.ResetColor();
-
-                string användarTal = Console.ReadLine();
-                int förstaIndex = slumpTal.IndexOf(användarTal);
-
-                if (förstaIndex != -1)
+                bool allaSiffror = true;
+                for (int k = i + 1; k < j; k++)
                 {
-                    int andraIndex = slumpTal.IndexOf(användarTal, förstaIndex + 1);
-
-                    if (andraIndex != -1)
+                    if (!char.IsDigit(slumpTal[k]))
                     {
-                        // matchning nummret här
-                        string matchandeDel = slumpTal.Substring(förstaIndex, (andraIndex - förstaIndex) + 1);
-
-                        // vi adderar talet
-                        totalSumma += long.Parse(matchandeDel);
-
-                        // slutresultat
-                        Console.Write(slumpTal.Substring(0, förstaIndex));
-                        Console.ForegroundColor = ConsoleColor.DarkRed;
-                        Console.Write(matchandeDel);
-                        Console.ResetColor();
-                        Console.WriteLine(slumpTal.Substring(andraIndex + 1));
-                    }
-                    else
-                    {
-                        Console.WriteLine(slumpTal);
+                        allaSiffror = false;
+                        break;
                     }
                 }
-                else
+
+                if (allaSiffror)
                 {
-                    Console.WriteLine(slumpTal);
+                    string matchandeDel = slumpTal.Substring(i, (j - i) + 1);
+                    totalSumma += long.Parse(matchandeDel);
+
+                    Console.WriteLine(slumpTal.Substring(0, i));
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    Console.Write(matchandeDel);
+                    Console.ResetColor();
+                    Console.WriteLine(slumpTal.Substring(j + 1));
                 }
             }
-
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"Totala summan adderad blir: {totalSumma}");
-            Console.ResetColor();
-
-            Console.WriteLine("Tryck på valfri tangent för att avsluta");
-            Console.ReadKey();
         }
+
     }
 }
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine($"Totala summan adderad blir: {totalSumma}");
+Console.ResetColor();
+
+Console.WriteLine("Tryck på valfri tnagent för att avsluta");
+Console.ReadKey();

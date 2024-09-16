@@ -12,3 +12,4 @@ C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\refint\Labc#.dll
 C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\Labc#.pdb
 C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\Labc#.genruntimeconfig.cache
 C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\ref\Labc#.dll
+C:\Users\khosh\OneDrive\Skrivbord\Lab1c#\Labc#\obj\Debug\net8.0\Labc#.sourcelink.json
